@@ -76,7 +76,6 @@ section{
 }
 /* header */
 header{
-    padding: 0px 30px;
     position: absolute;
     z-index: 9;
     width: 100%;
@@ -212,9 +211,7 @@ ul.social-share li a.github:hover {
 }
 
 /* header */
-.c-container{
-    padding: 0px 50px 0px 150px;
-}
+
 .banner {
     background: url(../image/me.jpg)no-repeat center;
     -webkit-background-size: cover;
@@ -237,9 +234,7 @@ ul.social-share li a.github:hover {
     position: relative;
     z-index: 1;
 }
-.banner-padding {
-    padding: 12vw 0 8vw;
-}
+
 
 h2.heading {
     color: #000;
@@ -287,10 +282,6 @@ h5.txt-w3_agile {
 
 /* about me */
 
-.about{
-    padding:120px 50px 100px 150px;
-
-}
 .img-aboutme{
     background-image: url('../image/aboutme.jpg');
     -webkit-background-size: cover;
@@ -298,22 +289,15 @@ h5.txt-w3_agile {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    width: 100%;
+    width: auto;
     height: 750px;
     border-radius: 8px;
     box-shadow: 0 0px 20px grey;
 }
 
-.c-about-img{
-    padding:0px 25px 0px 25px;
-}
-.c-about-text{
-    padding:70px 25px 0px 25px;
-}
 
 ul.about-ul{
     list-style-type: none;
-    margin:20px 0px 0px 0px;
 }
 ul.about-ul li{
     display: inline;
@@ -343,21 +327,11 @@ li.highlight{
 }
 
 /* project */
-.project{
-    padding:0px 0px 80px 150px;
-}
+
 
 .project-p{
-	padding:0px 250px 0px 250px;
     font-size:18px;
     color:#717173;
-    padding: 0px 40px;
-}
-.project-row{
-    padding: 70px 0px 0px 0px;
-}
-.project-col{
-    padding: 0px 15px 30px 15px;
 }
 
 .project-card1{
@@ -367,7 +341,7 @@ li.highlight{
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    width: 500px;
+    width: auto;
     height:650px;
     background-color: rgba(0,0,0,0.2);
     padding: 0px;
@@ -380,7 +354,7 @@ li.highlight{
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    width: 500px;
+    width: auto;
     height:650px;
     background-color: rgba(0,0,0,0.2);
     padding: 0px;
@@ -389,14 +363,14 @@ li.highlight{
 .card-opacity{
     padding: 0px;
     margin: 0px;
-    width: 500px;
+    width: auto;
     background-color: rgba(0,0,0,0.4);
     border-radius: 0.25rem;
     height:650px;
 }
 .card-opacity:hover{
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,0,77,0.5133403703278187) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,0,77,0.5133403703278187) 100%, rgba(0,212,255,1) 100%);
 }
 .project-card-title{
     padding:70px 0px 70px 0px;
@@ -430,13 +404,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(249,0,77,0.5133403703
 }
 
 /* hire me */
-
-.hire{
-    padding:0px 50px 0px 150px;
-}
-form{
-    padding:30px 0px;
-}
 input{
     height: 50px !important;
 }
@@ -454,7 +421,6 @@ input{
 
 /* footer */
 .footer{
-    padding: 30px 0px 30px 150px;
     color:#ffffff;
     background-color: #00010c;
 }
