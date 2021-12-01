@@ -63,7 +63,7 @@ ul {
     padding: 0;
 }
 section{
-    padding:0px 0px 100px 0px;
+    padding:50px 0px 50px 0px;
 }
 .eachtitle{
     /* font-family: 'Montserrat', sans-serif; */
@@ -298,7 +298,7 @@ h5.txt-w3_agile {
     -ms-background-size: cover;
     background-size: cover;
     width: auto;
-    height: 550px;
+    height: 620px;
     border-radius: 8px;
     box-shadow: 0 0px 20px grey;
 }
@@ -315,8 +315,6 @@ li.about-li{
     cursor: pointer;
     font-size: 18px;
     color:black;
-    margin:0px 20px 50px;
-    padding:0px 0px 4px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }    
 .details{
@@ -334,7 +332,9 @@ li.highlight{
 }
 
 /* project */
-
+#Project{
+    background-color: rgba(249,0,77,0.08);
+}
 
 .project-p{
     font-size:18px;
@@ -350,7 +350,7 @@ li.highlight{
     background-size: cover;
     width: auto;
     height:650px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
     padding: 0px;
     margin:0px;
 }
@@ -363,7 +363,7 @@ li.highlight{
     background-size: cover;
     width: auto;
     height:650px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
     padding: 0px;
     margin:0px;
 }
@@ -371,7 +371,7 @@ li.highlight{
     padding: 0px;
     margin: 0px;
     width: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.6);
     border-radius: 0.25rem;
     height:650px;
 }
