@@ -1,4 +1,22 @@
+//Not Working Email Handler
+function sendEmail() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var subject = document.getElementById('subject').value;
+    var message = document.getElementById('message').value;
+    Email.send({
+        Host: "smtp.gmail.com",
+        To : 'nishanbhatt60@gmail.com',
+        From : email,
+        Subject : subject + name,
+        Body : message,
+    })
+    .then(function(message){
+        alert("mail sent successfully")
+    });
+}
 
+// Toggle The About Me Properties
 $(".details").hide();
 $(".skillsdetails").show();
 $("#skills").addClass("highlight");
