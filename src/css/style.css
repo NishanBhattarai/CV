@@ -48,9 +48,6 @@ h6 {
     margin: 0;
     letter-spacing: 0px;
 }
-li {
-    list-style-type: none;
-}
 p {
     margin: 0;
     font-size: 1em;
@@ -231,17 +228,7 @@ ul.social-share li a.github:hover {
     position: relative;
     z-index: 1;
 }
-.inner_banner {
-    background: url(../image/me.jpg)no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-    height:700px;
-    position: relative;
-    z-index: 1;
-}
+
 
 
 h2.heading {
@@ -250,12 +237,11 @@ h2.heading {
     letter-spacing: 5px;
 }
 
-.banner:after,
-.inner_banner:after {
-    background-color: #ffffff;
+.banner::after {
+    background-color: wheat;
     content: "";
     left: 0;
-    opacity: 0.4;
+    opacity: 0.5;
     top: 0;
     position: absolute;
     height: 100%;
@@ -298,20 +284,17 @@ h5.txt-w3_agile {
     -ms-background-size: cover;
     background-size: cover;
     width: auto;
-    height: 620px;
+    height: 580px;
     border-radius: 8px;
     box-shadow: 0 0px 20px grey;
 }
 
-ul.about-ul{
+.about-ul{
     list-style-type: none;
 }
-ul.about-ul li{
+
+.about-li{
     display: inline;
-
-}
-
-li.about-li{
     cursor: pointer;
     font-size: 18px;
     color:black;
@@ -330,10 +313,12 @@ li.highlight{
 .thin-p{
     font-style: italic;
 }
-
+.skills li::marker{
+    color: #F9004D;
+}
 /* project */
 #Project{
-    background-color: rgba(249,0,77,0.08);
+    background-color:rgba(245,222,179,0.5);
 }
 
 .project-p{
