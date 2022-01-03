@@ -161,6 +161,9 @@ li.c-nav-item{
     #navbarSupportedContent{
         background-color: wheat;
     }
+    .hireme-image{
+        display: none;
+    }
 }
 
 ul.social-share li {
